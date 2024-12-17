@@ -1,1 +1,1 @@
-# EventBooster__FinalProject
+# parcel-project-template
