@@ -1,0 +1,26 @@
+.header__title {
+  color: $accent-color;
+  font-family: 'Montserrat', 'serif';
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 22px;
+  text-align: center;
+  max-width: 212px;
+  justify-self: center;
+  margin-top: 78px;
+}
+@media (min-width: 768px) {
+  .header__title {
+    font-size: 30px;
+    line-height: 37px;
+    max-width: 353px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .header__title {
+    font-size: 50px;
+    line-height: 61px;
+    max-width: 589px;
+  }
+}
