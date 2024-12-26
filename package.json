@@ -2,6 +2,7 @@
   "name": "Event Booster",
   "version": "2.0.0",
   "description": "",
+  "type": "module",
   "homepage": "https://github.com/Kilim4ik/EventBooster__FinalProject",
   "scripts": {
     "start": "parcel src/*.html",
