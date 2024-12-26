@@ -1,0 +1,21 @@
+.web-site-logo {
+    fill: #ffffff;
+    width: 90px;
+    height: 107px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  @media (min-width: 768px) {
+    .web-site-logo {
+      width: 180px;
+      height: 150px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .web-site-logo {
+      width: 240px;
+      height: 200px;
+    }
+  }
+  
