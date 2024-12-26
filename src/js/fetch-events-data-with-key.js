@@ -5,8 +5,3 @@ export const getEventsByName = (page, str) => {
     .then(res => res.json())
     .then(data => data['_embedded'].events);
 };
-const showData = async () => {
-  const res = await getEventsByName(1, 'king');
-  console.log(res);
-};
-showData();
