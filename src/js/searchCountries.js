@@ -1,5 +1,5 @@
-import { getEventsByName } from "./fetch-events-data-with-key";
-import { renderEvents } from "./renderEvents";
+import { getEventsByName } from "./fetch-events-data-with-key.js";
+import { renderEvents } from "./renderEvents.js";
 const searchCountriesButton = document.getElementById("buttonCountries")
 const searchInput = document.getElementById("searchInputCountries");
 searchCountriesButton.addEventListener('click',function(){
