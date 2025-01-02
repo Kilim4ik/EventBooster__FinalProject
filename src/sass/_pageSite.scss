@@ -1,0 +1,31 @@
+.pagination {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page-btn {
+    border: transparent;
+    padding: 8px 12px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      border-radius: 4px;
+      color: rgba(220, 86, 197, 1);
+      border: 1px solid rgba(220, 86, 197, 1);
+      transform: scale(1.1);
+      border-radius: 16px 0 16px 0;
+    }
+  
+    &.active {
+      font-weight: bold;
+      border: 1px solid rgba(220, 86, 197, 1);
+      color: rgba(220, 86, 197, 1);
+      border-radius: 16px 0 16px 0;
+    }
+  }
