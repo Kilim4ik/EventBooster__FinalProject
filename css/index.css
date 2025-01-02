@@ -126,3 +126,33 @@ html {
   right: 6px;
   border-radius: 0% 15% 15% 0%;
 }
+
+.pagination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-btn {
+  border: transparent;
+  padding: 8px 12px;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.page-btn:hover {
+  border-radius: 4px;
+  color: rgb(220, 86, 197);
+  border: 1px solid rgb(220, 86, 197);
+  transform: scale(1.1);
+  border-radius: 16px 0 16px 0;
+}
+.page-btn.active {
+  font-weight: bold;
+  border: 1px solid rgb(220, 86, 197);
+  color: rgb(220, 86, 197);
+  border-radius: 16px 0 16px 0;
+}
