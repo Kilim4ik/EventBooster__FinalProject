@@ -150,7 +150,7 @@ html {
     backdrop-filter: blur(20px);
   }
 }
-.button-countries {
+.button-search-event {
   position: relative;
   right: 40px;
   background: none;

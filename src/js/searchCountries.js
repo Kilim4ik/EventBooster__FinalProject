@@ -1,6 +1,6 @@
 import { getEventsByName } from "./fetch-events-data-with-key.js";
 import { renderEvents } from "./renderEvents.js";
-const searchCountriesButton = document.getElementById("buttonCountries")
+const searchCountriesButton = document.getElementById("buttonSearchCountries")
 const searchInput = document.getElementById("searchInputCountries");
 searchCountriesButton.addEventListener('click',function(){
     const searchValue = searchInput.value.trim().toLowerCase();
