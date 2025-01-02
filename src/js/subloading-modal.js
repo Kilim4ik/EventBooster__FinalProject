@@ -1,5 +1,6 @@
+const modal = document.querySelector('.modal');
 export const initializeModal = (selector) => {
-    if (!document.querySelector('.modal')) {
+    if (!modal) {
         const modalHTML = `
           <div class="modal" xyz="down-0 duration-10 wide-2 flip-right-4 flip-down-1 ease-linear left-1">
           <div class="modal-overlay xyz-in"></div>
@@ -10,7 +11,6 @@ export const initializeModal = (selector) => {
         document.body.insertAdjacentHTML('beforeend', modalHTML);
     }
 
-    const modal = document.querySelector('.modal');
     const modalOverlay = document.querySelector('.modal-overlay');
     const cards = document.querySelectorAll(selector);
     cards.forEach((card) => {
