@@ -126,3 +126,11 @@ html {
   right: 6px;
   border-radius: 0% 15% 15% 0%;
 }
+
+.modal.active {
+  display: block;
+}
+
+.modal-overlay.active {
+  display: block;
+}
