@@ -126,3 +126,33 @@ html {
   right: 6px;
   border-radius: 0% 15% 15% 0%;
 }
+
+.search-input {
+  width: 270px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid;
+  outline: none;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-left: 20px;
+}
+
+.search-input:focus {
+  border-color: #dc56c5;
+  box-shadow: 0 0 5px #dc56c5;
+}
+
+@supports (-webkit-backdrop-filter: blur(20px)) {
+  .search-input {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+}
+.button-search-event {
+  position: relative;
+  right: 40px;
+  background: none;
+  border: none;
+}
