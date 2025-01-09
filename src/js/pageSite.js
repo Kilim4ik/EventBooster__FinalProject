@@ -6,7 +6,6 @@ const itemsPerPage = 10;
 
 async function fetchEvents() {
   try {
-    
     const data = {
       events: Array.from({ length: 150 }, (_, i) => ({ name: `Event ${i + 1}` })),
     };
