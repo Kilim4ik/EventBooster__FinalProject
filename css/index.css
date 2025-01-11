@@ -19,7 +19,6 @@
 
 .example .background {
   height: 240px;
-  background-image: url("../images/logo.png");
   background-size: cover;
   background-position: center;
 }
@@ -145,14 +144,14 @@ html {
 }
 .page-btn:hover {
   border-radius: 4px;
-  color: rgb(220, 86, 197);
-  border: 1px solid rgb(220, 86, 197);
+  color: #dc56c5;
+  border: 1px solid #dc56c5;
   transform: scale(1.1);
   border-radius: 16px 0 16px 0;
 }
 .page-btn.active {
   font-weight: bold;
-  border: 1px solid rgb(220, 86, 197);
-  color: rgb(220, 86, 197);
+  border: 1px solid #dc56c5;
+  color: #dc56c5;
   border-radius: 16px 0 16px 0;
 }
