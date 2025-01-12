@@ -1,4 +1,4 @@
-# parcel-project-template
+# Event Booster
 
 EventBooster is a web application developed for searching events globally. It is designed to cater to users who are active in attending concerts, plays, and various events. This app does not have age restrictions, offering a wide range of events including children's shows, concerts of different music genres, plays, and shows.
 
