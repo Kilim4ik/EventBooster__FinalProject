@@ -39,9 +39,9 @@ You can view the project presentation at this link.
 
 # Collaborators
 
-  – team lead, frontend developer
-  – scrum master, frontend developer
-  – frontend developer
-  – frontend developer
-  – frontend developer
-  – frontend developer
+  https://github.com/Kilim4ik – team lead, frontend developer
+  https://github.com/Nazarius9273827 – scrum master, frontend developer
+  https://github.com/AmidQ1 – frontend developer
+  https://github.com/AddNiI – frontend developer
+  https://github.com/foxy242 – frontend developer
+  https://github.com/SofiaPutlyuk – frontend developer
