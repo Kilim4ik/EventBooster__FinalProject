@@ -9,8 +9,8 @@ body {
   
   .theme-switcher {
     position: fixed;
-    top: 10%;
-    right: 10%;
+    top: 5%;
+    right: 5%;
     width: 100px;
     height: 100px;
     background: linear-gradient(145deg, #191919, #292929);
@@ -50,12 +50,10 @@ body {
   .theme-switcher .icon::after {
     content: "🌙";
     font-size: 30px;
-    color: #fff;
     transition: color 0.3s;
   }
   
   .theme-switcher.light .icon::after {
     content: "🌞";
-    color: #000;
   }
   
