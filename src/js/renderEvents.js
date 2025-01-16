@@ -10,5 +10,5 @@ export const renderEvents = async arr => {
   <p class="event-card__location">${elem['_embedded'].venues[0].name}</p>
 </div>`
       )
-      .join(',') + '<button id=pagination-button>load more</button>';
+      .join(',') ;
 };

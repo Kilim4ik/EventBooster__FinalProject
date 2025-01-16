@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.up-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 1px 1px 14px $accent-color;
+  transform: rotate(90deg);
+}
+
+.mid-line {
+  width: 35px;
+  height: 8px;
+  background-color: white;
+  border-radius: 0% 10% 10% 0%;
+  &::before {
+    content: '';
+    transform: rotate(-45deg);
+    display: block;
+    width: 24px;
+    height: 8px;
+    background: white;
+    position: relative;
+    bottom: 6px;
+    left: -6px;
+    border-radius: 0% 15% 15% 0%;
+  }
+  &::after {
+    content: '';
+    transform: rotate(45deg);
+    display: block;
+    width: 24px;
+    height: 8px;
+    background: white;
+    position: relative;
+    top: -2px;
+    right: 6px;
+    border-radius: 0% 15% 15% 0%;
+  }
+}
