@@ -1,6 +1,7 @@
 import countryMapping from '../json/countryCodes.json';
-import { getEventsByName } from './fetch-events-data-with-key.js';
+import { fetchEvents } from './fetch-events-data-with-key.js';
 import { renderEvents } from './renderEvents.js';
+import { searchInput } from './searchEvents.js';
 function createModal() {
     const modal = document.createElement('div');
     modal.classList.add('modal');
@@ -35,7 +36,7 @@ searchCountrySelector.addEventListener('input', async (event) => {
     const countryCode = countryMapping[selectedCountry];
     if (countryCode) {
         try {
-            const events = await getEventsByName(0, `country:${countryCode}`);
+            const events = await fetchEvents({ page : 0, keyword : searchInput.value , locale :searchCountrySelector.value });
             renderEvents(events);
         } catch (error) {
             console.error('Помилка при отриманні подій:', error);
