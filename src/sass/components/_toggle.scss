@@ -1,12 +1,20 @@
-body {
-    background-color: #000;
-    transition: background-color 0.3s, color 0.3s;
-  }
+
   
   body.light-theme {
-    background-color: #fff; 
+    background-image: url('../src/images/ligth-theme-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+  @media(min-width:1440px){
+    body.light-theme {
+     background-image: url('../src/images/ligth-theme-laptop.jpg');
+    }
   }
-  
+  @media(min-width:768px){
+    body.light-theme {
+     background-image: url('../src/images/ligth-theme-tablet.jpg');
+    }
+  }
   .theme-switcher {
     position: fixed;
     top: 5%;
