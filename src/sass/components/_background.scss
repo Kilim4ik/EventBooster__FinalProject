@@ -1,0 +1,15 @@
+body {
+    background-image: url('../src/images/background-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(min-width:768px){
+body {
+    background-image: url('../src/images/background-tablet.png');
+}
+}
+@media(min-width:1440px){
+    body {
+        background-image: url('../src/images/background-laptop.png');
+    }
+}
