@@ -3,6 +3,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+header {
+    background-image: url('../src/images/header-dark-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 364px;
+}
+@media(min-width:768px){
+    header {
+        background-image: url('../src/images/header-dark-tablet.png');
+    }
+    }
+    @media(min-width:1440px){
+        header {
+            background-image: url('../src/images/header-dark-laptop.png');
+            height: 446px;
+        }
+        }
 @media(min-width:768px){
 body {
     background-image: url('../src/images/background-tablet.png');
