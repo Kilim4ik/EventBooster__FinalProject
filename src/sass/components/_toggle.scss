@@ -1,12 +1,35 @@
-body {
-    background-color: #000;
-    transition: background-color 0.3s, color 0.3s;
+header.light-theme {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../src/images/header-light-mobile.png');
+  height: 364px;
+}
+@media(min-width:768px){
+  header.light-theme {
+   background-image: url('../src/images/header-light-tablet.webp');
   }
-  
+}
+@media(min-width:1440px){
+  header.light-theme {
+   background-image: url('../src/images/header-light-laptop.webp');
+   height: 446px;
+  }
+}
   body.light-theme {
-    background-color: #fff; 
+    background-image: url('../src/images/ligth-theme-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+  @media(min-width:1440px){
+    body.light-theme {
+     background-image: url('../src/images/ligth-theme-laptop.jpg');
+    }
   }
-  
+  @media(min-width:768px){
+    body.light-theme {
+     background-image: url('../src/images/ligth-theme-tablet.jpg');
+    }
+  }
   .theme-switcher {
     position: fixed;
     top: 5%;
@@ -23,6 +46,7 @@ body {
     justify-content: center;
     cursor: pointer;
     overflow: hidden;
+    border: none;
   }
   
   .theme-switcher .icon {
